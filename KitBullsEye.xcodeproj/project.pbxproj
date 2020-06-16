@@ -13,10 +13,13 @@
 		A5E6F5D8249055C500EB61B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E6F5D6249055C500EB61B7 /* Main.storyboard */; };
 		A5E6F5DA249055CA00EB61B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E6F5D9249055CA00EB61B7 /* Assets.xcassets */; };
 		A5E6F5DD249055CA00EB61B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E6F5DB249055CA00EB61B7 /* LaunchScreen.storyboard */; };
+		A5E6F5E52497569200EB61B7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6F5E42497569200EB61B7 /* AboutViewController.swift */; };
+		A5E6F5E72497650000EB61B7 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = A5E6F5E6249764FF00EB61B7 /* BullsEye.html */; };
+		A5E6F5EA249765E400EB61B7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E6F5E9249765E400EB61B7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5E6F5CD249055C500EB61B7 /* KitBullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitBullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E6F5CD249055C500EB61B7 /* KitBull's Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KitBull's Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E6F5D0249055C500EB61B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E6F5D2249055C500EB61B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5E6F5D4249055C500EB61B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		A5E6F5D9249055CA00EB61B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E6F5DC249055CA00EB61B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5E6F5DE249055CA00EB61B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E6F5E42497569200EB61B7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A5E6F5E6249764FF00EB61B7 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		A5E6F5E9249765E400EB61B7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E6F5EA249765E400EB61B7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +49,14 @@
 			children = (
 				A5E6F5CF249055C500EB61B7 /* KitBullsEye */,
 				A5E6F5CE249055C500EB61B7 /* Products */,
+				A5E6F5E8249765E400EB61B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A5E6F5CE249055C500EB61B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5E6F5CD249055C500EB61B7 /* KitBullsEye.app */,
+				A5E6F5CD249055C500EB61B7 /* KitBull's Eye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +64,25 @@
 		A5E6F5CF249055C500EB61B7 /* KitBullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				A5E6F5E6249764FF00EB61B7 /* BullsEye.html */,
 				A5E6F5D0249055C500EB61B7 /* AppDelegate.swift */,
 				A5E6F5D2249055C500EB61B7 /* SceneDelegate.swift */,
 				A5E6F5D4249055C500EB61B7 /* ViewController.swift */,
+				A5E6F5E42497569200EB61B7 /* AboutViewController.swift */,
 				A5E6F5D6249055C500EB61B7 /* Main.storyboard */,
 				A5E6F5D9249055CA00EB61B7 /* Assets.xcassets */,
 				A5E6F5DB249055CA00EB61B7 /* LaunchScreen.storyboard */,
 				A5E6F5DE249055CA00EB61B7 /* Info.plist */,
 			);
 			path = KitBullsEye;
+			sourceTree = "<group>";
+		};
+		A5E6F5E8249765E400EB61B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5E6F5E9249765E400EB61B7 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +102,7 @@
 			);
 			name = KitBullsEye;
 			productName = KitBullsEye;
-			productReference = A5E6F5CD249055C500EB61B7 /* KitBullsEye.app */;
+			productReference = A5E6F5CD249055C500EB61B7 /* KitBull's Eye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E6F5DD249055CA00EB61B7 /* LaunchScreen.storyboard in Resources */,
+				A5E6F5E72497650000EB61B7 /* BullsEye.html in Resources */,
 				A5E6F5DA249055CA00EB61B7 /* Assets.xcassets in Resources */,
 				A5E6F5D8249055C500EB61B7 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +159,7 @@
 			files = (
 				A5E6F5D5249055C500EB61B7 /* ViewController.swift in Sources */,
 				A5E6F5D1249055C500EB61B7 /* AppDelegate.swift in Sources */,
+				A5E6F5E52497569200EB61B7 /* AboutViewController.swift in Sources */,
 				A5E6F5D3249055C500EB61B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.harei.KitBullsEye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "KitBull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.harei.KitBullsEye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "KitBull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
